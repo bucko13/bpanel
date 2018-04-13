@@ -41,7 +41,7 @@ const FiltersWidget = (Dashboard, { React, PropTypes }) =>
     render() {
       const { customChildrenBefore: existingChildren } = this.props;
       const customChildrenBefore = (
-        <div className="col-4">
+        <div className="col-6">
           <FilterForm />
           {existingChildren}
         </div>
